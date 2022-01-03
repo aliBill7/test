@@ -55,7 +55,10 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           # Specify Browser since container image is compile with Firefox
-          browser: firefox
+          build: npm i -D cypress
+          install: false
+          browser: chrome
+          headless: true
 
 
 
