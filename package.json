@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "prettier --write 'e2e/**/*.js'"
+    "lint": "prettier --write 'e2e/**/*.js'",
+    "build" : "npm run build"
   },
   "repository": {
     "type": "git",
