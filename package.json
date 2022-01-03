@@ -1,17 +1,42 @@
 {
-  "name": "cypress",
+  "name": "test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Running Cypress tests using GitHub Action inside a repo",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open",
-    "test": "echo \"Error: no test specified \" && exit 1",
-    "build" : "npm run build"
-
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "prettier --write 'e2e/**/*.js'"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "cypress-xpath": "^1.6.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliBill7/test.git"
+  },
+  "author": "Ali Bill",
+  "license": "Mr.Bill",
+  "bugs": {
+    "url": "https://github.com/aliBill7/test/issues"
+  },
+  "homepage": "https://github.com/aliBill7/test#readme",
+  // "devDependencies": {
+  //   "cypress": "5.6.0",
+  //   "prettier": "2.1.2"
+  // }
 }
+
+// {
+//   "name": "cypress",
+//   "version": "1.0.0",
+//   "description": "",
+//   "main": "index.js",
+//   "scripts": {
+//     "cypress:open": "cypress open",
+//     "test": "echo \"Error: no test specified \" && exit 1",
+//     "build" : "npm run build"
+
+//   },
+//   "author": "",
+//   "license": "ISC",
+//   "devDependencies": {
+//     "cypress-xpath": "^1.6.2"
+//   }
+// }
